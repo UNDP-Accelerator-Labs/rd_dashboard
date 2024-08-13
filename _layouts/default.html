@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/public/imgs/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/public/imgs/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/public/imgs/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/public/imgs/favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/css/base-minimal.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/css/components/author-card.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/css/components/author-column.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/css/components/cta-link.min.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/css/components/global-header.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/css/components/language-switcher.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/css/components/menu.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/css/components/mega-menu.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/css/components/mobile-nav.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/css/components/breadcrumbs.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/css/templates/authors.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/css/components/author-summary.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/css/components/content-card.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/css/components/chips.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/css/components/input-fields.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/css/components/buttons.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/css/components/newsletter-signup.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/css/components/accordion.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/css/components/footer.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/css/templates/author-page.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/css/components/menu-overflow.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/css/components/sidebar.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/css/components/sidebar-data.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/css/components/page-hero.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/css/components/progress.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/css/components/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/css/components/fluid-image-size-carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/css/templates/generic-page.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/css/components/search-expand.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/css/components/country-site-header.min.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/css/components/filter-and-search-bar.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/css/components/multi-select.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/css/components/checkbox.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/css/components/radio.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+
+    <title>Accelerator Labs - R&D Dashboard </title>
+
+  </head>
+  <body>
+
+    <div class="generic-page">
+      <!-- START HEARDER -->
+      <header class="country-header country-load-animation run-animation">
+        <section class="header">
+          <div class="grid-container fluid">
+            <div class="grid-x grid-margin-x align-content-middle">
+              <div class="cell small-6 large-6 shrink align-self-middle top-left">
+                <a href="{{ site.baseurl }}/" class="logo" tabindex="0" title="UNDP Logo homepage link">
+                  <img
+                    src="{{ site.baseurl }}/public/imgs/UNDP_accelerator_labs_logo_vertical_color_RGB.png"
+                    style="max-width: 30%; height: auto; margin-right: 1em;"
+                    alt="UNDP Logo"
+                  />
+                </a>
+                <div class="site-title" style="padding-left: 10em">
+                  <span><a href="#" title="UNDP homepage link">Accelerator Labs</a></span>
+                  <span><a href="#" title="UNDP homepage link">R&D Dashboard</a></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </header>
+      <!-- END HEADER -->
+
+       
+        
+        <div class="grid-container fluid content-bottom">
+          <div class="grid-x margin-top-72">
+            
+            <!-- BEGIN PAGE CONTENT -->
+            <div class="cell large-1  generic-content"></div>
+            <div class="cell large-10 small-12 generic-content">
+              <div class="grid-x">
+                <div class="markdown-body">
+
+                  <!-- START BREADCRUMBS NAV -->
+                  {% include corporate/breadcrumbs.html %}
+                  <!-- END BREADCRUMBS NAV -->
+                  <div id="content">
+                    {{ content }}
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="cell large-1  generic-content"></div>
+            <!-- END PAGE CONTENT -->
+
+          </div>
+        </div>
+
+        <!-- BEGIN PAGE FOOTER -->
+        {% include corporate/footer.html %}
+      </div>      
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/js/animation.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/js/navigation.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/js/undp.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/js/accordion.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/js/viewport.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/js/sidebar.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/js/lang-switcher.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/js/scrolling-progressbar.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/js/swiper.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/js/expand-search.min.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/js/filter-search-bar.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@undp/design-system/docs/js/multi-select.min.js"></script>
+
+ 
+    <script>
+    $(document).ready(function(){
+      navigationInitialize();
+      navigationOverFlow();
+      navigationMultiLevelEdgeDetection();
+
+      accordion();
+
+    });
+    </script>
+
+
+<script src="https://d3js.org/d3.v6.min.js"></script>
+
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+<script src="https://unpkg.com/chart.js@2.8.0/dist/Chart.bundle.js"></script>
+<script src="https://unpkg.com/chartjs-gauge@0.3.0/dist/chartjs-gauge.js"></script>
+<script src="https://unpkg.com/chartjs-plugin-datalabels@0.7.0/dist/chartjs-plugin-datalabels.js"></script>
+
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function() {
+      var data = {{ site.data.rd_data | jsonify }};
+      createRegionChart(data);
+  });
+</script>
+<script src="{{ '/assets/js/rd_dashboard.js' | relative_url }}"></script>
+
+<!-- Heatmap - Themes Across Countries -->
+<script>
+        var data = {{ site.data.themes_per_country | jsonify }};
+        var z_data = data.data;
+        var x_data = data.columns;
+        var y_data = data.index;
+
+        var trace1 = {
+            z: z_data,
+            x: x_data,
+            y: y_data,
+            type: 'heatmap',
+            colorscale: 'Reds' // Optional: Choose a colorscale
+        };
+
+        var layout = {
+            title: 'Themes Across Countries',
+            xaxis: {
+                title: 'Themes',
+                tickangle: -45, // Tilt the labels to fit better
+                tickfont: {
+                    size: 10, // Increase or decrease the size to adjust spacing
+                },
+                automargin: true, // Automatically adjust margin to prevent labels from being cut off
+            },
+            yaxis: {
+                // title: 'Countries',
+                tickfont: {
+                    size: 10, // Increase or decrease the size to adjust spacing
+                },
+                automargin: true, // Automatically adjust margin to prevent labels from being cut off
+            },
+            height: 800, // Increase height to give more space for cells
+            width: 800, // Increase width to give more space for cells
+            margin: {
+                l: 150, // Left margin for y-axis labels
+                r: 50, // Right margin
+                t: 100, // Top margin for title
+                b: 150  // Bottom margin for x-axis labels
+            }
+        };
+
+        Plotly.newPlot('themes-country', [trace1], layout);
+
+</script>
+
+
+<!-- Pie Chart - Topics Across Themes -->
+<script>
+    var data = {{ site.data.topics_per_theme | jsonify }};
+    var z_data = data.data.map(row => row.reduce((a, b) => a + b, 0)); // Summing up the rows
+    var labels = data.index; // Extracting labels
+
+    var ctx = document.getElementById('topicsThemeChart').getContext('2d');
+    var topicsThemeChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Topics Across Themes',
+                data: z_data,
+                backgroundColor: ['red', 'blue', 'green', 'brown', 'purple', 'orange'], // Add more colors if needed
+            }]
+        },
+        options: {
+            plugins: {
+                legend: {
+                    display: true, // You can still hide or show the legend as needed
+                },
+                datalabels: {
+                    formatter: (value, ctx) => {
+                        let sum = ctx.chart.data.datasets[0].data.reduce((a, b) => a + b, 0);
+                        let percentage = (value * 100 / sum).toFixed(2) + "%";
+                        return percentage;
+                    },
+                    color: '#fff', // Text color
+                }
+            }
+        },
+        plugins: [ChartDataLabels] // Register the datalabels plugin
+    });
+</script>
+
+
+
+
+<script>
+    var data = {{ site.data.theme_counts | jsonify }};
+        data.forEach(item => {
+            var chartId = 'chart-' + item.Theme.replace(/\s+/g, '-').toLowerCase();
+            
+            var canvasDiv = document.createElement('div');
+            canvasDiv.style.width = '250px';
+            canvasDiv.style.height = '150px';
+            canvasDiv.style.marginBottom = '10px';
+            
+            var canvas = document.createElement('canvas');
+            canvas.id = chartId;
+            canvasDiv.appendChild(canvas);
+            document.getElementById('canvas-holder').appendChild(canvasDiv);
+
+            var config = {
+                type: 'gauge',
+                data: {
+                    datasets: [{
+                        data: [0, 9, 200],  // Segment limits
+                        value: item['Number of Activities'],
+                        backgroundColor: ['red', 'yellow','green' ],
+                        borderWidth: 2
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    title: {
+                        display: true,
+                        text: item.Theme
+                    },
+                    layout: {
+                        padding: {
+                            bottom: 10
+                        }
+                    },
+                    needle: {
+                        // Needle circle radius as a percentage of the chart area width
+                        radiusPercentage: 2,
+                        // Needle width as a percentage of the chart area width
+                        widthPercentage: 3.2,
+                        // Needle length as a percentage of the interval between inner radius (0%) and outer radius (100%) of the arc
+                        lengthPercentage: 80,
+                        // The color of the needle
+                        color: 'rgba(0, 0, 0, 1)'
+                    },
+                    valueLabel: {
+                        formatter: Math.round
+                    }
+                }
+            };
+
+            var ctx = document.getElementById(chartId).getContext('2d');
+            new Chart(ctx, config);
+        });
+    
+</script>
+
+  </body>
+</html>
