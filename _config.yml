@@ -21,7 +21,7 @@
 title: R&D Dashboard
 description: A dashboard for R&D activities visualization.
 baseurl: "/rd-dashboard"
-url: "https://yourusername.github.io"
+url: "https://undp-accelerator-labs.github.io/rd_dashboard"
 theme: minima
 plugins:
   - jekyll-paginate
