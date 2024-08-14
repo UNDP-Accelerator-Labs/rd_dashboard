@@ -83,7 +83,7 @@ The deployment is managed via a GitHub Actions workflow located in `.github/work
 
 After deployment, the R&D Dashboard can be accessed via the (GitHub Pages URL)[https://undp-accelerator-labs.github.io/rd_dashboard/] associated with this repository. The dashboard provides real-time insights into R&D activities, which can be use to monitor and analyze global research trends across the Accelerator labs.
 
-## Update the Data
+## Updating the Data
 
 The dashboard is powered by data from an [Excel spreadsheet](https://github.com/UNDP-Accelerator-Labs/rd_dashboard/blob/main/R%26D_dashboard_data.xlsx) located in this repository. Contributors can update this spreadsheet directly. After any changes are made, the `process_data.py` script will automatically convert the updated data into JSON files, which are then used for the visualizations displayed on the dashboard.
 
