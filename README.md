@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The R&D Dashboard is a web-based visualization tool designed to provide insights into research and development (R&D) activities across various themes and countries. The dashboard includes multiple visualizations, such as gauge charts, bar charts, pie charts, and heatmaps, which offer a comprehensive overview of the distribution and intensity of R&D efforts globally.
+The R&D Dashboard is a web-based visualization tool designed to provide insights into research and development (R&D) activities across various themes and countries. The dashboard includes multiple visualizations, such as gauge charts, bar charts, pie charts, and heatmaps, which offer a comprehensive overview of the distribution and intensity of R&D efforts across the Accelerator Labs.
 
 ### Key Features
 - **Gauge Charts**: Display the intensity of R&D activities across different themes.
@@ -71,7 +71,7 @@ This project uses GitHub Actions for continuous deployment to GitHub Pages. The 
 
 ### GitHub Actions Workflow
 
-The deployment is managed via a GitHub Actions workflow located in `.github/workflows/deploy.yml`. The workflow:
+The deployment is managed via a GitHub Actions workflow located in `.github/workflows/jekyll.yml`. The workflow:
 
 1. Checks out the repository.
 2. Installs necessary dependencies.
@@ -81,7 +81,11 @@ The deployment is managed via a GitHub Actions workflow located in `.github/work
 
 ## Usage
 
-After deployment, the R&D Dashboard can be accessed via the GitHub Pages URL associated with your repository. The dashboard provides real-time insights into R&D activities, which can be used by researchers, policymakers, and other stakeholders to monitor and analyze global research trends.
+After deployment, the R&D Dashboard can be accessed via the (GitHub Pages URL)[https://undp-accelerator-labs.github.io/rd_dashboard/] associated with this repository. The dashboard provides real-time insights into R&D activities, which can be use to monitor and analyze global research trends across the Accelerator labs.
+
+## Update the Data
+
+The dashboard is powered by data from an [Excel spreadsheet](https://github.com/UNDP-Accelerator-Labs/rd_dashboard/blob/main/R%26D_dashboard_data.xlsx) located in this repository. Contributors can update this spreadsheet directly. After any changes are made, the `process_data.py` script will automatically convert the updated data into JSON files, which are then used for the visualizations displayed on the dashboard.
 
 ## Contributing
 
