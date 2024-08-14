@@ -81,7 +81,7 @@ The deployment is managed via a GitHub Actions workflow located in `.github/work
 
 ## Usage
 
-After deployment, the R&D Dashboard can be accessed via the (GitHub Pages URL)[https://undp-accelerator-labs.github.io/rd_dashboard/] associated with this repository. The dashboard provides real-time insights into R&D activities, which can be use to monitor and analyze global research trends across the Accelerator labs.
+After deployment, the R&D Dashboard can be accessed via the [GitHub Pages URL](https://undp-accelerator-labs.github.io/rd_dashboard/) associated with this repository. The dashboard provides real-time insights into R&D activities, which can be use to monitor and analyze global research trends across the Accelerator labs.
 
 ## Updating the Data
 
