@@ -21,8 +21,8 @@ The R&D Dashboard is a web-based visualization tool designed to provide insights
 ├── assets               # Directory for static assets (e.g., CSS, JS)
 │   └── ...
 ├── index.html           # Main HTML file for the dashboard
-├── process_data.py      # Python script to process the Excel data and generate JSON files
-├── R&D_dashboard_data.xlsx     # The Excel file containing data for the dashboard.
+├── process_data.py      # Python script to process the data and generate JSON files
+├── data.json    # The JSON file containing data for the dashboard.
 ├── README.md            # This README file
 └── .github              # GitHub Actions workflow directory
     └── workflows
@@ -85,7 +85,7 @@ After deployment, the R&D Dashboard can be accessed via the [GitHub Pages URL](h
 
 ## Updating the Data
 
-The dashboard is powered by data from an [Excel spreadsheet](https://github.com/UNDP-Accelerator-Labs/rd_dashboard/blob/main/R%26D_dashboard_data.xlsx) located in this repository. Contributors can update this spreadsheet directly. After any changes are made, the `process_data.py` script will automatically convert the updated data into JSON files, which are then used for the visualizations displayed on the dashboard.
+The dashboard is powered by data from an [JSON file](https://github.com/UNDP-Accelerator-Labs/rd_dashboard/blob/main/data.json) located in this repository. Contributors can update this file directly. After any changes are made, the `process_data.py` script will automatically convert the updated data into JSON files, which are then used for the visualizations displayed on the dashboard.
 
 ## Contributing
 
@@ -104,7 +104,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Acknowledgments
 
-- [Chart.js](https://www.chartjs.org/) - For creating responsive and customizable charts.
 - [Plotly](https://plotly.com/) - For data visualization.
 - [GitHub Actions](https://github.com/features/actions) - For continuous integration and deployment.
 - [Jekyll](https://jekyllrb.com/) - For static site generation.
