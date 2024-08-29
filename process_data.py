@@ -2,43 +2,76 @@ import pandas as pd
 import json
 import os
 
-# Load the Excel file
-file_path = 'R&D_dashboard_data.xlsx'
-df = pd.read_excel(file_path, sheet_name='Sheet1')
+# Load the JSON file
+with open('data.json', 'r') as json_file:
+    data = json.load(json_file)
 
-# Prepare the data
+# Convert JSON data to a DataFrame
+df = pd.DataFrame(data)
 
-# Count of R&D activities per country
-activities_per_country = df['country'].value_counts().reset_index()
-activities_per_country.columns = ['Country', 'Number of Activities']
+# Replace empty or NaN values in the 'R&D cycle' column with 'Unknown'
+df['R&D cycle'] = df['R&D cycle'].replace('', 'Unknown')
+df['R&D cycle'] = df['R&D cycle'].fillna('Unknown')
 
-# Count of themes across countries (instead of regions)
-themes_per_country = df.groupby(['country', 'Theme']).size().unstack(fill_value=0)
+# Count the connections between each Theme and Region for Sankey diagram
+theme_region_counts = df.groupby(['Theme', 'region']).size().reset_index(name='counts')
 
-# Distribution of topics across themes
-topics_per_theme = df.groupby('Theme')['topic'].value_counts().unstack(fill_value=0)
+# Prepare data for Sankey diagram
+themes = df['Theme'].unique().tolist()
+regions = df['region'].unique().tolist()
 
-# Convert the DataFrame to JSON
-json_data = df.to_json(orient='records')
+# Create source, target, and value lists
+source = theme_region_counts['Theme'].apply(lambda x: themes.index(x)).tolist()
+target = theme_region_counts['region'].apply(lambda x: len(themes) + regions.index(x)).tolist()
+value = theme_region_counts['counts'].tolist()
 
+# Prepare the final data structure for Sankey
+sankey_data = {
+    "nodes": {
+        "label": themes + regions,
+    },
+    "links": {
+        "source": source,
+        "target": target,
+        "value": value
+    }
+}
 
-# Ensure the _data directory exists
+# Process the data for a stacked bar chart
+stacked_data = df.groupby(['Theme', 'region']).size().unstack(fill_value=0).reset_index()
+
+# Convert the processed data to a JSON format
+stacked_data_json = stacked_data.to_json(orient='split')
+
+# Convert the DataFrame to JSON and save it to _data folder
 output_dir = '_data'
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 
-# Save the JSON data to a file
-with open(os.path.join(output_dir, 'rd_data.json'), 'w') as json_file:
-    json_file.write(json_data)
+with open(os.path.join(output_dir, 'sankey_data.json'), 'w') as json_file:
+    json.dump(sankey_data, json_file)
 
-# Save the processed data to JSON files
-activities_per_country.to_json('_data/activities_per_country.json', orient='records')
-themes_per_country.to_json('_data/themes_per_country.json', orient='split')  # Update the file name
-topics_per_theme.to_json('_data/topics_per_theme.json', orient='split')
+with open(os.path.join(output_dir, 'stacked_bar_data.json'), 'w') as json_file:
+    json.dump(stacked_data_json, json_file)
 
-# Count the number of occurrences of each theme
+# Group by theme and count the number of activities (or labs)
 theme_counts = df['Theme'].value_counts().reset_index()
-theme_counts.columns = ['Theme', 'Number of Activities']
+theme_counts.columns = ['Theme', 'Number of Labs']
 
-# Save the processed data to JSON files
-theme_counts.to_json('_data/theme_counts.json', orient='records')
+# Convert the processed data to JSON format
+theme_counts_json = theme_counts.to_json(orient='records')
+
+# Save the JSON data to a file
+with open(os.path.join(output_dir, 'gauge_chart_data.json'), 'w') as json_file:
+    json.dump(theme_counts_json, json_file)
+
+
+# Process the data for a stacked bar chart
+stacked_data_category = df.groupby(['Theme', 'R&D cycle']).size().unstack(fill_value=0).reset_index()
+
+# Convert the processed data to a JSON format
+stacked_data_category__json = stacked_data_category.to_json(orient='split')
+
+# Save the processed data to the _data folder
+with open(os.path.join(output_dir, 'stacked_bar_chart_category_data.json'), 'w') as json_file:
+    json.dump(stacked_data_category__json, json_file)

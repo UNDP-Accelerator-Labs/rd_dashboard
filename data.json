@@ -1,0 +1,1430 @@
+[
+    {
+        "Theme": "Civic engagement",
+        "country": "Iraq",
+        "region": "RBAS",
+        "R&D cycle": "Social media data to investigate the social contract",
+        "topic": "Big data"
+    },
+    {
+        "Theme": "Civic engagement",
+        "country": "Fiji",
+        "region": "RBAP",
+        "R&D cycle": "Storytelling to design auxiliary services to renewables-based electrification",
+        "topic": "Collective intelligence for climate action"
+    },
+    {
+        "Theme": "Civic engagement",
+        "country": "Guatemala",
+        "region": "RBLAC",
+        "R&D cycle": "Citizen science to better share the community's water",
+        "topic": "Collective intelligence for climate action"
+    },
+    {
+        "Theme": "Civic engagement",
+        "country": "Kenya",
+        "region": "RBA",
+        "R&D cycle": "Collaborative mapping of water sources to reduce conflict in Tana River county",
+        "topic": "Collective intelligence for climate action"
+    },
+    {
+        "Theme": "Civic engagement",
+        "country": "Mozambique",
+        "region": "RBA",
+        "R&D cycle": "Visual storytelling on climate adaptation",
+        "topic": "Collective intelligence for climate action"
+    },
+    {
+        "Theme": "Civic engagement",
+        "country": "North Macedonia",
+        "region": "RBEC",
+        "R&D cycle": "Citizens engagement for adaptation to heat islands",
+        "topic": "Collective intelligence for climate action"
+    },
+    {
+        "Theme": "Civic engagement",
+        "country": "Panama",
+        "region": "RBLAC",
+        "R&D cycle": "Community preparedness to floods in Panama city",
+        "topic": "Collective intelligence for climate action"
+    },
+    {
+        "Theme": "Civic engagement",
+        "country": "Samoa",
+        "region": "RBAP",
+        "R&D cycle": "Participatory mapping of alien invasive species",
+        "topic": "Collective intelligence for climate action"
+    },
+    {
+        "Theme": "Civic engagement",
+        "country": "South Africa",
+        "region": "RBA",
+        "R&D cycle": "Collective Intelligence for the Just Energy Transition",
+        "topic": "Collective intelligence for climate action"
+    },
+    {
+        "Theme": "Civic engagement",
+        "country": "South Sudan",
+        "region": "RBA",
+        "R&D cycle": "Community-managed pastures and waterpoints",
+        "topic": "Collective intelligence for climate action"
+    },
+    {
+        "Theme": "Civic engagement",
+        "country": "Sudan",
+        "region": "RBA",
+        "R&D cycle": "Building peace through climate intervention",
+        "topic": "Collective intelligence for climate action"
+    },
+    {
+        "Theme": "Civic engagement",
+        "country": "Bangladesh",
+        "region": "RBAP",
+        "R&D cycle": "Connecting stakeholders for biodiversity in Kuakata",
+        "topic": "Local stakeholders fora"
+    },
+    {
+        "Theme": "Civic engagement",
+        "country": "Bosnia and Herzegovina",
+        "region": "RBEC",
+        "R&D cycle": "Urban Lab",
+        "topic": "Local stakeholders fora"
+    },
+    {
+        "Theme": "Civic engagement",
+        "country": "Dominican Republic",
+        "region": "RBLAC",
+        "R&D cycle": "Community-based local waste management",
+        "topic": "Local stakeholders fora"
+    },
+    {
+        "Theme": "Civic engagement",
+        "country": "Guinea-Bissau",
+        "region": "RBAP",
+        "R&D cycle": "Participatory urban planning",
+        "topic": "Local stakeholders fora"
+    },
+    {
+        "Theme": "Civic engagement",
+        "country": "Mexico",
+        "region": "RBLAC",
+        "R&D cycle": "Portfolio for consultations with indigenous communities",
+        "topic": "Local stakeholders fora"
+    },
+    {
+        "Theme": "Civic engagement",
+        "country": "Paraguay",
+        "region": "RBLAC",
+        "R&D cycle": "Participatory governance development program",
+        "topic": "Local stakeholders fora"
+    },
+    {
+        "Theme": "Civic engagement",
+        "country": "Philippines",
+        "region": "RBAP",
+        "R&D cycle": "Malay Food Systems Multi-Stakeholders Group",
+        "topic": "Local stakeholders fora"
+    },
+    {
+        "Theme": "Civic engagement",
+        "country": "Bosnia and Herzegovina",
+        "region": "RBEC",
+        "R&D cycle": "Open innovation platform",
+        "topic": "Open innovation"
+    },
+    {
+        "Theme": "Civic engagement",
+        "country": "North Macedonia",
+        "region": "RBEC",
+        "R&D cycle": "Biohacking Lab",
+        "topic": "Open innovation"
+    },
+    {
+        "Theme": "Civic engagement",
+        "country": "Argentina",
+        "region": "RBLAC",
+        "R&D cycle": "Grassroots knowledge for resilience and climate action",
+        "topic": "Participation as action"
+    },
+    {
+        "Theme": "Civic engagement",
+        "country": "Kenya",
+        "region": "RBA",
+        "R&D cycle": "Volunteer-driven approach to tackiling misinformation",
+        "topic": "Participation as action"
+    },
+    {
+        "Theme": "Civic engagement",
+        "country": "Panama",
+        "region": "RBLAC",
+        "R&D cycle": "Circular economy and participatory transformation in public markets",
+        "topic": "Participation as action"
+    },
+    {
+        "Theme": "Civic engagement",
+        "country": "Peru",
+        "region": "RBLAC",
+        "R&D cycle": "Grassroots knowledge for resilience and climate action",
+        "topic": "Participation as action"
+    },
+    {
+        "Theme": "Civic engagement",
+        "country": "Thailand",
+        "region": "RBAP",
+        "R&D cycle": "taking direct action on air pollution and forest fires",
+        "topic": "Participation as action"
+    },
+    {
+        "Theme": "Civic engagement",
+        "country": "Togo",
+        "region": "RBA",
+        "R&D cycle": "Shared micro-weather data to improve agricultural yields",
+        "topic": "Collective intelligence for climate action"
+    },
+    {
+        "Theme": "Civic engagement",
+        "country": "Trinidad and Tobago",
+        "region": "RBLAC",
+        "R&D cycle": "Peacebuilding through community-level innovation",
+        "topic": "Participation as action"
+    },
+    {
+        "Theme": "Civic engagement",
+        "country": "Uruguay",
+        "region": "RBLAC",
+        "R&D cycle": "Tactical urbanism",
+        "topic": "Participation as action"
+    },
+    {
+        "Theme": "Civic engagement",
+        "country": "Bolivia",
+        "region": "RBLAC",
+        "R&D cycle": "Integrating indigenous people's climate adaptation needs into municipal planning",
+        "topic": "Participatory policy making"
+    },
+    {
+        "Theme": "Civic engagement",
+        "country": "Bosnia and Herzegovina",
+        "region": "RBEC",
+        "R&D cycle": "Designing energy efficiency policies through collective intelligence",
+        "topic": "Participatory policy making"
+    },
+    {
+        "Theme": "Civic engagement",
+        "country": "Bosnia and Herzegovina",
+        "region": "RBEC",
+        "R&D cycle": "Public Consultation 2.0",
+        "topic": "Participatory policy making"
+    },
+    {
+        "Theme": "Civic engagement",
+        "country": "Mexico",
+        "region": "RBLAC",
+        "R&D cycle": "Trasferring local narratives from women into a feminist foreign policy",
+        "topic": "Participatory policy making"
+    },
+    {
+        "Theme": "Civic engagement",
+        "country": "North Macedonia",
+        "region": "RBEC",
+        "R&D cycle": "Citizen participation to UNDP's programme development",
+        "topic": "Participatory policy making"
+    },
+    {
+        "Theme": "Civic engagement",
+        "country": "Somalia",
+        "region": "RBA",
+        "R&D cycle": "Storytellers for COVID awareness",
+        "topic": "Participatory policy making"
+    },
+    {
+        "Theme": "Civic engagement",
+        "country": "Uganda",
+        "region": "RBA",
+        "R&D cycle": "Citizen engagement for flood resilience in informal settlements",
+        "topic": "Participatory policy making"
+    },
+    {
+        "Theme": "Civic engagement",
+        "country": "Uzbekistan",
+        "region": "RBEC",
+        "R&D cycle": "Awareness and co-design in public service delivery",
+        "topic": "Participatory policy making"
+    },
+    {
+        "Theme": "Tourism",
+        "country": "Bangladesh",
+        "region": "RBAP",
+        "R&D cycle": "Blue tourism",
+        "topic": "Developing an offer for new market niches"
+    },
+    {
+        "Theme": "Tourism",
+        "country": "Bangladesh",
+        "region": "RBAP",
+        "R&D cycle": "Protecting sea turtles hatching locations",
+        "topic": "Tourism and environmental sustainability"
+    },
+    {
+        "Theme": "Tourism",
+        "country": "Bangladesh",
+        "region": "RBAP",
+        "R&D cycle": "Citizen activism for biodiversity conservation in the Sundarbans\nJune 23, 2022",
+        "topic": "Tourism and environmental sustainability"
+    },
+    {
+        "Theme": "Tourism",
+        "country": "Bangladesh",
+        "region": "RBAP",
+        "R&D cycle": "Community-based tourism",
+        "topic": "Community-based tourism"
+    },
+    {
+        "Theme": "Tourism",
+        "country": "Bangladesh",
+        "region": "RBAP",
+        "R&D cycle": "Biodiversity Conservation and Local Engagement in Kuakata",
+        "topic": "Tourism and environmental sustainability"
+    },
+    {
+        "Theme": "Tourism",
+        "country": "Bangladesh",
+        "region": "RBAP",
+        "R&D cycle": "Data-driven decision making in the toursima sector",
+        "topic": "Digital data to understand the tourism experience"
+    },
+    {
+        "Theme": "Tourism",
+        "country": "Barbados",
+        "region": "RBLAC",
+        "R&D cycle": "AR/VR for inclusive tourism",
+        "topic": "Community-based tourism"
+    },
+    {
+        "Theme": "Tourism",
+        "country": "Benin",
+        "region": "RBA",
+        "R&D cycle": "Conservation and development of the lakeside areas",
+        "topic": "Tourism and environmental sustainability"
+    },
+    {
+        "Theme": "Tourism",
+        "country": "Cape Verde",
+        "region": "RBA",
+        "R&D cycle": "Blue economy",
+        "topic": "Developing an offer for new market niches"
+    },
+    {
+        "Theme": "Tourism",
+        "country": "Dominican Republic",
+        "region": "RBLAC",
+        "R&D cycle": "Digital nomads",
+        "topic": "Developing an offer for new market niches"
+    },
+    {
+        "Theme": "Tourism",
+        "country": "Dominican Republic",
+        "region": "RBLAC",
+        "R&D cycle": "MSMEs for tourism",
+        "topic": "Community-based tourism"
+    },
+    {
+        "Theme": "Tourism",
+        "country": "Egypt",
+        "region": "RBAS",
+        "R&D cycle": "Agritourism",
+        "topic": "Tourism and environmental sustainability"
+    },
+    {
+        "Theme": "Tourism",
+        "country": "El Salvador",
+        "region": "RBLAC",
+        "R&D cycle": "Benefits of free internet in public spaces",
+        "topic": "Developing an offer for new market niches"
+    },
+    {
+        "Theme": "Tourism",
+        "country": "Jordan",
+        "region": "RBAS",
+        "R&D cycle": "Sentiment analysis of TripAdvisor",
+        "topic": "Digital data to understand the tourism experience"
+    },
+    {
+        "Theme": "Tourism",
+        "country": "Jordan",
+        "region": "RBAS",
+        "R&D cycle": "Developing the tourist offer in Madaba",
+        "topic": "Developing an offer for new market niches"
+    },
+    {
+        "Theme": "Tourism",
+        "country": "Kyrgyzistan",
+        "region": "RBEC",
+        "R&D cycle": "Creative place-making",
+        "topic": "Developing an offer for new market niches"
+    },
+    {
+        "Theme": "Tourism",
+        "country": "Lesotho",
+        "region": "RBA",
+        "R&D cycle": "Photobank",
+        "topic": "Developing an offer for new market niches"
+    },
+    {
+        "Theme": "Tourism",
+        "country": "Lesotho",
+        "region": "RBA",
+        "R&D cycle": "Herd-boys",
+        "topic": "Tourism and environmental sustainability"
+    },
+    {
+        "Theme": "Tourism",
+        "country": "Malawi",
+        "region": "RBA",
+        "R&D cycle": "AI for tourism",
+        "topic": "Digital data to understand the tourism experience"
+    },
+    {
+        "Theme": "Tourism",
+        "country": "Malaysia",
+        "region": "RBAP",
+        "R&D cycle": "Local data observatory",
+        "topic": "Tourism and environmental sustainability"
+    },
+    {
+        "Theme": "Tourism",
+        "country": "Maldives",
+        "region": "RBAP",
+        "R&D cycle": "Only solutions",
+        "topic": "Developing an offer for new market niches"
+    },
+    {
+        "Theme": "Tourism",
+        "country": "Mauritius",
+        "region": "RBAP",
+        "R&D cycle": "Recovery of the tourism sector",
+        "topic": "Developing an offer for new market niches"
+    },
+    {
+        "Theme": "Tourism",
+        "country": "Palestine",
+        "region": "RBAS",
+        "R&D cycle": "Eco-tourism as a source of sustainable growth",
+        "topic": "Developing an offer for new market niches"
+    },
+    {
+        "Theme": "Tourism",
+        "country": "Philippines",
+        "region": "RBAP",
+        "R&D cycle": "Sustainable food",
+        "topic": "Tourism and environmental sustainability"
+    },
+    {
+        "Theme": "Tourism",
+        "country": "Samoa",
+        "region": "RBAP",
+        "R&D cycle": "Single-use plastic in hotels",
+        "topic": "Tourism and environmental sustainability"
+    },
+    {
+        "Theme": "Tourism",
+        "country": "Tanzania",
+        "region": "RBA",
+        "R&D cycle": "Waste banks in Zanzibar",
+        "topic": "Tourism and environmental sustainability"
+    },
+    {
+        "Theme": "Tourism",
+        "country": "Tanzania",
+        "region": "RBA",
+        "R&D cycle": "Social media data for understanding the experience of tourists",
+        "topic": "Digital data to understand the tourism experience"
+    },
+    {
+        "Theme": "Tourism",
+        "country": "Thaiand",
+        "region": "RBAP",
+        "R&D cycle": "Community-based tourism",
+        "topic": "Community-based tourism"
+    },
+    {
+        "Theme": "Tourism",
+        "country": "Ukraine ",
+        "region": "RBEC",
+        "R&D cycle": "Domestic sustainable tourism",
+        "topic": "Developing an offer for new market niches"
+    },
+    {
+        "Theme": "Tourism",
+        "country": "Zambia",
+        "region": "RBA",
+        "R&D cycle": "Community participation to tourism",
+        "topic": "Community-based tourism"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Algeria",
+        "region": "RBAS",
+        "R&D cycle": "creating awareness",
+        "topic": "Responsible consumption"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Bangladesh",
+        "region": "RBAP",
+        "R&D cycle": "information gaps in the medical waste ecosystem",
+        "topic": "Data and knowledge"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Belarus",
+        "region": "RBEC",
+        "R&D cycle": "inclusive circular economy",
+        "topic": "Waste to livelihood"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Benin",
+        "region": "RBA",
+        "R&D cycle": "water hyacinth",
+        "topic": "Waste to livelihood"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Bhutan",
+        "region": "RBAP",
+        "R&D cycle": "sorting household waste",
+        "topic": "Responsible consumption"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Bosnia and Herzegovina",
+        "region": "RBEC",
+        "R&D cycle": "food rescue",
+        "topic": "Food waste"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Bosnia and Herzegovina",
+        "region": "RBEC",
+        "R&D cycle": "portfolio",
+        "topic": "System integration"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Burkina Faso",
+        "region": "RBA",
+        "R&D cycle": "plastic waste and circularity",
+        "topic": "Plastic waste"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Cambodia",
+        "region": "RBAP",
+        "R&D cycle": "Waste bins",
+        "topic": "Responsible consumption"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Cameroon",
+        "region": "RBA",
+        "R&D cycle": "recycling as a solution to a lack of access to energy and waste from markets",
+        "topic": "Waste to livelihood"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Chad",
+        "region": "RBA",
+        "R&D cycle": "biogas",
+        "topic": "Waste to livelihood"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Chad",
+        "region": "RBA",
+        "R&D cycle": "plastic waste and circularity",
+        "topic": "Plastic waste"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Dominican Republic",
+        "region": "RBLAC",
+        "R&D cycle": "waste management culture",
+        "topic": "Responsible consumption"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "DR Congo",
+        "region": "RBA",
+        "R&D cycle": "entrepreneurship for the waste challenge",
+        "topic": "Waste to livelihood"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "El Salvador",
+        "region": "RBLAC",
+        "R&D cycle": "reducing plastic waste on El Tunco beach",
+        "topic": "Plastic waste"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Ethiopia",
+        "region": "RBA",
+        "R&D cycle": "waste to livelihood",
+        "topic": "Waste to livelihood"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Georgia",
+        "region": "RBEC",
+        "R&D cycle": "plastic waste recycling",
+        "topic": "Responsible consumption"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Guatemala",
+        "region": "RBLAC",
+        "R&D cycle": "community approaches to circularity",
+        "topic": "Responsible consumption"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Haiti",
+        "region": "RBLAC",
+        "R&D cycle": "opportunities from waste",
+        "topic": "Data and knowledge"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Lao PDR",
+        "region": "RBAP",
+        "R&D cycle": "behavior change around waste",
+        "topic": "Responsible consumption"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Lao PDR",
+        "region": "RBAP",
+        "R&D cycle": "community waste champions",
+        "topic": "Responsible consumption"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Lesotho",
+        "region": "RBA",
+        "R&D cycle": "plastic waste",
+        "topic": "Plastic waste"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Malawi",
+        "region": "RBA",
+        "R&D cycle": "testing solutions",
+        "topic": "Data and knowledge"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Mauritania",
+        "region": "RBA",
+        "R&D cycle": "geodata for solid waste management",
+        "topic": "Data and knowledge"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Mexico",
+        "region": "RBLAC",
+        "R&D cycle": "collective intelligence for stakeholder engagement on plastic waste",
+        "topic": "Responsible consumption"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Mongolia",
+        "region": "RBEC",
+        "R&D cycle": "community based recycling center",
+        "topic": "Waste to livelihood"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Nepal",
+        "region": "RBAP",
+        "R&D cycle": "Green jobs through waste upcycling",
+        "topic": "Waste to livelihood"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "North Macedonia",
+        "region": "RBEC",
+        "R&D cycle": "local waste management portfolio",
+        "topic": "System integration"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Pacific",
+        "region": "RBAP",
+        "R&D cycle": "pacific plastic waste challenge",
+        "topic": "Data and knowledge"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Pakistan",
+        "region": "RBAP",
+        "R&D cycle": "understanding plastic waste",
+        "topic": "Data and knowledge"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Panama",
+        "region": "RBLAC",
+        "R&D cycle": "complexity in SWM",
+        "topic": "Data and knowledge"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Philippines",
+        "region": "RBAP",
+        "R&D cycle": "CE portfolio",
+        "topic": "System integration"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Samoa",
+        "region": "RBAP",
+        "R&D cycle": "single-use plastic in hotels and catering",
+        "topic": "Plastic waste"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Saudi Arabia",
+        "region": "RBAS",
+        "R&D cycle": "food waste",
+        "topic": "Food waste"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Senegal",
+        "region": "RBA",
+        "R&D cycle": "citizen initiatives",
+        "topic": "Responsible consumption"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "South Africa",
+        "region": "RBA",
+        "R&D cycle": "food waste",
+        "topic": "Food waste"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Syria",
+        "region": "RBAS",
+        "R&D cycle": "upcycling",
+        "topic": "Responsible consumption"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Tanzania",
+        "region": "RBA",
+        "R&D cycle": "Waste Banks",
+        "topic": "Waste to livelihood"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Tanzania",
+        "region": "RBA",
+        "R&D cycle": "WasteX",
+        "topic": "Data and knowledge"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Togo",
+        "region": "RBA",
+        "R&D cycle": "methane from feces",
+        "topic": "Waste to livelihood"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Togo",
+        "region": "RBA",
+        "R&D cycle": "food waste",
+        "topic": "Food waste"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Trinidad and Tobago",
+        "region": "RBLAC",
+        "R&D cycle": "plastic waste",
+        "topic": "Plastic waste"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "T\u00fcrkiye",
+        "region": "RBEC",
+        "R&D cycle": "textile waste",
+        "topic": "Waste to livelihood"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Ukraine",
+        "region": "RBEC",
+        "R&D cycle": "open burning",
+        "topic": "Data and knowledge"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Ukraine",
+        "region": "RBEC",
+        "R&D cycle": "single-use coffee cups",
+        "topic": "Responsible consumption"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Vietnam",
+        "region": "RBAP",
+        "R&D cycle": "Da Nang portfolio",
+        "topic": "System integration"
+    },
+    {
+        "Theme": "Circular economy",
+        "country": "Zambia",
+        "region": "RBA",
+        "R&D cycle": "social cohesion and incentives to separate waste",
+        "topic": "Responsible consumption"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Angola",
+        "region": "RBA",
+        "R&D cycle": "",
+        "topic": "Public spaces"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Bosnia & Herzegovina",
+        "region": "RBEC",
+        "R&D cycle": "",
+        "topic": "Public spaces"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Ecuador",
+        "region": "RBLAC",
+        "R&D cycle": "",
+        "topic": "Public spaces"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Guinea-Bissau",
+        "region": "RBA",
+        "R&D cycle": "",
+        "topic": "Public spaces"
+    },
+    {
+        "Theme": "Cities",
+        "country": "T\u00fcrkiye",
+        "region": "RBAS",
+        "R&D cycle": "",
+        "topic": "Public spaces"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Lebanon",
+        "region": "RBAS",
+        "R&D cycle": "",
+        "topic": "Public spaces"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Mexico",
+        "region": "RBLAC",
+        "R&D cycle": "",
+        "topic": "Public spaces"
+    },
+    {
+        "Theme": "Cities",
+        "country": "North Macedonia",
+        "region": "RBEC",
+        "R&D cycle": "",
+        "topic": "Public spaces"
+    },
+    {
+        "Theme": "Cities",
+        "country": "T\u00fcrkiye",
+        "region": "RBAS",
+        "R&D cycle": "",
+        "topic": "Public spaces"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Uruguay",
+        "region": "RBLAC",
+        "R&D cycle": "",
+        "topic": "Public spaces"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Bosnia & Herzegovina",
+        "region": "RBEC",
+        "R&D cycle": "",
+        "topic": "Energy"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Cameroon",
+        "region": "RBA",
+        "R&D cycle": "",
+        "topic": "Energy"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Lebanon",
+        "region": "RBAS",
+        "R&D cycle": "",
+        "topic": "Energy"
+    },
+    {
+        "Theme": "Cities",
+        "country": "T\u00fcrkyie",
+        "region": "RBAS",
+        "R&D cycle": "",
+        "topic": "Energy"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Indonesia",
+        "region": "RBAP",
+        "R&D cycle": "",
+        "topic": "Disaster Risk Reduction"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Lebanon",
+        "region": "RBAP",
+        "R&D cycle": "",
+        "topic": "Disaster Risk Reduction"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Kyrgyzistan",
+        "region": "RBEC",
+        "R&D cycle": "",
+        "topic": "Disaster Risk Reduction"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Panama",
+        "region": "RBLAC",
+        "R&D cycle": "",
+        "topic": "Disaster Risk Reduction"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Bolivia",
+        "region": "RBLAC",
+        "R&D cycle": "",
+        "topic": "Urban waste"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Cameroon",
+        "region": "RBA",
+        "R&D cycle": "",
+        "topic": "Urban waste"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Dominican Republic",
+        "region": "RBLAC",
+        "R&D cycle": "",
+        "topic": "Urban waste"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Guatemala",
+        "region": "RBLAC",
+        "R&D cycle": "",
+        "topic": "Urban waste"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Malawi",
+        "region": "RBA",
+        "R&D cycle": "",
+        "topic": "Urban waste"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Panama",
+        "region": "RBLAC",
+        "R&D cycle": "",
+        "topic": "Urban waste"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Paraguay",
+        "region": "RBLAC",
+        "R&D cycle": "",
+        "topic": "Urban waste"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Nepal",
+        "region": "RBAP",
+        "R&D cycle": "",
+        "topic": "Urban waste"
+    },
+    {
+        "Theme": "Cities",
+        "country": "North Macedonia",
+        "region": "RBEC",
+        "R&D cycle": "",
+        "topic": "Urban waste"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Tanzania",
+        "region": "RBA",
+        "R&D cycle": "",
+        "topic": "Urban waste"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Uruguay",
+        "region": "RBLAC",
+        "R&D cycle": "",
+        "topic": "Urban waste"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Bolivia",
+        "region": "RBLAC",
+        "R&D cycle": "",
+        "topic": "Transport and mobility"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Burkina Faso",
+        "region": "RBA",
+        "R&D cycle": "",
+        "topic": "Transport and mobility"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Dominican Republic",
+        "region": "RBLAC",
+        "R&D cycle": "",
+        "topic": "Transport and mobility"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Guatemala",
+        "region": "RBLAC",
+        "R&D cycle": "",
+        "topic": "Transport and mobility"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Kenya",
+        "region": "RBA",
+        "R&D cycle": "",
+        "topic": "Transport and mobility"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Lebanon",
+        "region": "RBAS",
+        "R&D cycle": "",
+        "topic": "Transport and mobility"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Malawi",
+        "region": "RBA",
+        "R&D cycle": "",
+        "topic": "Transport and mobility"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Nepal",
+        "region": "RBAP",
+        "R&D cycle": "",
+        "topic": "Transport and mobility"
+    },
+    {
+        "Theme": "Cities",
+        "country": "North Macedonia",
+        "region": "RBEC",
+        "R&D cycle": "",
+        "topic": "Transport and mobility"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Togo",
+        "region": "RBA",
+        "R&D cycle": "",
+        "topic": "Transport and mobility"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Argentina",
+        "region": "RBLAC",
+        "R&D cycle": "",
+        "topic": "Air pollution"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Kazakhstan",
+        "region": "RBEC",
+        "R&D cycle": "",
+        "topic": "Air pollution"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Lebanon",
+        "region": "RBAS",
+        "R&D cycle": "",
+        "topic": "Air pollution"
+    },
+    {
+        "Theme": "Cities",
+        "country": "North Macedonia",
+        "region": "RBEC",
+        "R&D cycle": "",
+        "topic": "Air pollution"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Ukraine",
+        "region": "RBEC",
+        "R&D cycle": "",
+        "topic": "Air pollution"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Dominican Republic",
+        "region": "RBLAC",
+        "R&D cycle": "",
+        "topic": "Portfolio-like"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Ethiopia",
+        "region": "RBA",
+        "R&D cycle": "",
+        "topic": "Portfolio-like"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Indonesia",
+        "region": "RBAP",
+        "R&D cycle": "",
+        "topic": "Portfolio-like"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Maldives",
+        "region": "RBLAC",
+        "R&D cycle": "",
+        "topic": "Portfolio-like"
+    },
+    {
+        "Theme": "Cities",
+        "country": "Morocco",
+        "region": "RBAS",
+        "R&D cycle": "",
+        "topic": "Portfolio-like"
+    },
+    {
+        "Theme": "Cities",
+        "country": "North Macedonia",
+        "region": "RBEC",
+        "R&D cycle": "",
+        "topic": "Water"
+    },
+    {
+        "Theme": "Cities",
+        "country": "South Africa",
+        "region": "RBA",
+        "R&D cycle": "",
+        "topic": "Water"
+    },
+    {
+        "Theme": "Cities",
+        "country": "North Macedonia",
+        "region": "RBEC",
+        "R&D cycle": "",
+        "topic": "Finance"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "Angola",
+        "region": "RBA",
+        "R&D cycle": "",
+        "topic": "markets"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "Bosnia and Herzegovina",
+        "region": "RBEC",
+        "R&D cycle": "",
+        "topic": "food rescue"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "Cabo Verde",
+        "region": "RBA",
+        "R&D cycle": "",
+        "topic": "data and precision agriculture"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "Cameroon",
+        "region": "RBA",
+        "R&D cycle": "",
+        "topic": "food rescue"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "Egypt",
+        "region": "RBAS",
+        "R&D cycle": "",
+        "topic": "markets"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "El Salvador",
+        "region": "RBLAC",
+        "R&D cycle": "",
+        "topic": "markets"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "El Salvador",
+        "region": "RBLAC",
+        "R&D cycle": "",
+        "topic": "data and precision agriculture"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "Ethiopia",
+        "region": "RBA",
+        "R&D cycle": "",
+        "topic": "supply chain"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "Guatemala",
+        "region": "RBLAC",
+        "R&D cycle": "",
+        "topic": "data and precision agriculture"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "India",
+        "region": "RBAP",
+        "R&D cycle": "",
+        "topic": "data and precision agriculture"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "Jordan",
+        "region": "RBAS",
+        "R&D cycle": "",
+        "topic": "other"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "Kenya",
+        "region": "RBA",
+        "R&D cycle": "",
+        "topic": "conflict prevention"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "Lesotho",
+        "region": "RBA",
+        "R&D cycle": "",
+        "topic": "markets"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "Lesotho",
+        "region": "RBA",
+        "R&D cycle": "",
+        "topic": "supply chain"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "Malaysia",
+        "region": "RBAP",
+        "R&D cycle": "",
+        "topic": "supply chain"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "Malaysia",
+        "region": "RBAP",
+        "R&D cycle": "",
+        "topic": "markets"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "Mauritania",
+        "region": "RBA",
+        "R&D cycle": "",
+        "topic": "supply chain"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "Mauritius",
+        "region": "RBA",
+        "R&D cycle": "",
+        "topic": "self-sufficiency"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "Nigeria",
+        "region": "RBA",
+        "R&D cycle": "",
+        "topic": "conflict prevention"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "Pacific",
+        "region": "RBAP",
+        "R&D cycle": "",
+        "topic": "self-sufficiency"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "Pakistan",
+        "region": "RBAP",
+        "R&D cycle": "",
+        "topic": "markets"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "Peru",
+        "region": "RBLAC",
+        "R&D cycle": "",
+        "topic": "markets"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "Peru",
+        "region": "RBLAC",
+        "R&D cycle": "",
+        "topic": "data and precision agriculture"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "Peru",
+        "region": "RBLAC",
+        "R&D cycle": "",
+        "topic": "supply chain"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "Philippines",
+        "region": "RBAP",
+        "R&D cycle": "",
+        "topic": "self-sufficiency"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "Somalia",
+        "region": "RBA",
+        "R&D cycle": "",
+        "topic": "supply chain"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "South Africa",
+        "region": "RBA",
+        "R&D cycle": "",
+        "topic": "other"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "South Africa",
+        "region": "RBA",
+        "R&D cycle": "",
+        "topic": "data and precision agriculture"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "South Africa",
+        "region": "RBA",
+        "R&D cycle": "",
+        "topic": "markets"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "South Africa",
+        "region": "RBA",
+        "R&D cycle": "",
+        "topic": "supply chain"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "South Africa",
+        "region": "RBA",
+        "R&D cycle": "",
+        "topic": "food rescue"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "South Africa",
+        "region": "RBA",
+        "R&D cycle": "",
+        "topic": "self-sufficiency"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "Syria",
+        "region": "RBAS",
+        "R&D cycle": "",
+        "topic": "supply chain"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "Syria",
+        "region": "RBAS",
+        "R&D cycle": "",
+        "topic": "data and precision agriculture"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "Tanzania",
+        "region": "RBA",
+        "R&D cycle": "",
+        "topic": "markets"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "Thailand",
+        "region": "RBAP",
+        "R&D cycle": "",
+        "topic": "other"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "Togo",
+        "region": "RBA",
+        "R&D cycle": "",
+        "topic": "data and precision agriculture"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "Zimbabwe",
+        "region": "RBA",
+        "R&D cycle": "",
+        "topic": "supply chain"
+    },
+    {
+        "Theme": "Food systems",
+        "country": "Zimbabwe",
+        "region": "RBA",
+        "R&D cycle": "",
+        "topic": "markets"
+    }
+]

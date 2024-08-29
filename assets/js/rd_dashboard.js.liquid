@@ -1,0 +1,248 @@
+  var colors = {
+      "Food systems": "#a6cee3",
+      "Circular economy": "#1f78b4",
+      "Tourism": "#b2df8a",
+      "Cities": "#33a02c",
+      "Civic engagement": "#fb9a99",
+      "RBA": "#e31a1c",
+      "RBAP": "#fdbf6f",
+      "RBAS": "#ff7f00",
+      "RBLAC": "#cab2d6",
+      "RBEC": "#6a3d9a"
+  };
+  var initialOpacity = 0.1;  // Start with low opacity for animation effect
+  var finalOpacity = 0.6;    // End with desired opacity
+
+  var nodeColors = data.nodes.label.map(function(label) {
+      return colors[label] || '#c0c0c0'; // Default color if not defined
+  });
+
+  // Link colors, matching the source node color
+  var linkColors = data.links.source.map(function(sourceIndex) {
+      return nodeColors[sourceIndex];
+  });
+
+  var sankeyData = {
+      type: "sankey",
+      orientation: "h",
+      node: {
+          pad: 15,
+          thickness: 20,
+          line: {
+              color: "blue",
+              width: 0.5
+          },
+          label: data.nodes.label,
+          color: nodeColors
+      },
+      link: {
+          source: data.links.source,
+          target: data.links.target,
+          value: data.links.value,
+          color: linkColors,
+          opacity: initialOpacity,
+          hovertemplate: '%{value}',
+          }
+      };
+
+      var layout = {
+          font: {
+              size: 10
+          },
+          width: 1000, // Set the width of the diagram
+          height: 600, // Set the height of the diagram
+          margin: {
+              l: 50, // Left margin
+              r: 50, // Right margin
+              t: 50, // Top margin
+              b: 50  // Bottom margin
+          }
+      };
+
+      var frames = [
+          {
+              data: [{
+                  ...sankeyData,
+                  link: {
+                      ...sankeyData.link,
+                      opacity: initialOpacity  // Start with low opacity
+                  }
+              }],
+              name: "initial",
+              traces: [0]
+          },
+          {
+              data: [{
+                  ...sankeyData,
+                  link: {
+                      ...sankeyData.link,
+                      opacity: finalOpacity  // Transition to final opacity
+                  }
+              }],
+              name: "final",
+              traces: [0]
+          }
+      ];
+
+      Plotly.newPlot('sankey-diagram', [sankeyData], layout).then(function() {
+          Plotly.animate('sankey-diagram', frames, {
+              transition: {
+                  duration: 1000, // Animation duration (1 second)
+                  easing: "cubic-in-out" // Easing function for smoother animation
+              },
+              frame: {
+                  duration: 1000, // Duration to stay at final frame
+                  redraw: true
+              },
+              mode: "immediate" // Start animation immediately
+          });
+      });
+
+
+  // Reconstruct the data into a DataFrame-like structure
+  const parsedData = JSON.parse(data_stacked_bar);
+  const themes = parsedData.data.map(row => row[0]);  // Extract theme names
+  const columns = parsedData.columns.slice(1);  // Skip the first column (themes)
+  const values = parsedData.data.map(row => row.slice(1));  // Values excluding theme names
+
+  // Prepare the traces for the stacked bar chart
+  const traces = [];
+  for (let i = 1; i < columns.length; i++) {
+      traces.push({
+          x: themes,
+          y: values.map(row => row[i]),
+          name: columns[i],
+          type: 'bar'
+      });
+  }
+
+  const layout_stacked_bar = {
+      barmode: 'stack',
+  };
+
+  Plotly.newPlot('stacked-bar-chart', traces, layout_stacked_bar);
+
+
+  // Load the JSON data for Gauge meters
+  const themes_guage = JSON.parse(data_gauge_chart);
+  
+  themes_guage.forEach((theme, index) => {
+      const gaugeDiv = document.createElement('div');
+      gaugeDiv.id = 'gauge-' + index;
+      gaugeDiv.style.width = '300px';
+      gaugeDiv.style.height = '300px';
+      document.getElementById('gauge-charts').appendChild(gaugeDiv);
+  
+      // Calculate the angle for the pointer
+      const level = theme["Number of Labs"];
+      const degrees = 180 - (level / 80) * 180;  // Adjusted for left-to-right reading
+      const radius = 0.5;
+      const radians = degrees * Math.PI / 180;
+      const x = radius * Math.cos(radians);
+      const y = radius * Math.sin(radians);
+  
+      const path = 'M -.0 -0.025 L .0 0.025 L ' + String(x) + ' ' + String(y) + ' Z';
+  
+      const gaugeData = [
+          {
+              type: "scatter",
+              x: [0], y: [0],
+              marker: { size: 10, color: "850000" },
+              showlegend: false,
+              name: "Number of Labs",
+              text: level,
+              hoverinfo: "text+name",
+              textposition: "top center"
+          },
+          {
+              values: [10, 70, 20, 100],
+              rotation: 90,
+              text: ["Low", "High", ""],
+              textinfo: "text",
+              textposition: "inside",
+              marker: {
+                  colors: [
+                      "rgba(255, 0, 0, .5)",  // Red for Low (0-10)
+                      "rgba(0, 255, 0, .5)",  // Green for High (10 and above)
+                      "rgba(0, 255, 0, .5)",   
+                      "rgba(255, 255, 255, 0)"  
+                  ]
+              },
+              labels: ["0-10", "10-80", "", ""],
+              hoverinfo: "label",
+              hole: .5,
+              type: "pie",
+              showlegend: false
+          }
+      ];
+  
+      const layout_guage = {
+          shapes: [
+              {
+                  type: 'path',
+                  path: path,
+                  fillcolor: '850000',
+                  line: {
+                      color: '850000'
+                  }
+              }
+          ],
+          title: {
+              text: theme["Theme"],
+              font: { size: 14, weight: 'bold' },
+              x: 0.5,
+              y: -0.2,  // Position the title below the arc
+              xanchor: 'center',
+              yanchor: 'bottom'
+          },
+          height: 300,
+          width: 300,
+          xaxis: {
+              zeroline: false, showticklabels: false,
+              showgrid: false, range: [-1, 1]
+          },
+          yaxis: {
+              zeroline: false, showticklabels: false,
+              showgrid: false, range: [-1, 1]
+          },
+          margin: { t: 20, b: 20, l: 20, r: 20 },
+          annotations: [
+              {
+                  x: 0.1,
+                  y: 0.1,  // Position the value near the pointer
+                  text: `<b>${level}</b>`,  // Make the value bold
+                  showarrow: false,
+                  font: {
+                      size: 18,  
+                      color: 'black'
+                  }
+              }
+          ]
+      };
+  
+      Plotly.newPlot(gaugeDiv.id, gaugeData, layout_guage);
+  });
+
+
+//Load R&D cycle bar chart
+  const parsed_data_category = JSON.parse(data_stacked_bar_category);
+  const themes_category = parsed_data_category.index;
+  const categories = parsed_data_category.columns.slice(1); // Skip the first column which is the theme name
+  const values_category = parsed_data_category.data.map(row => row.slice(1)); // Values excluding the theme names
+
+  // Prepare the traces for the stacked bar chart
+  const traces_category = categories.map((category, i) => ({
+      x: themes,
+      y: values.map(row => row[i]),
+      name: category,
+      type: 'bar'
+  }));
+
+  const layout_stacked_bar_category = {
+      barmode: 'stack',
+      xaxis: { title: 'Themes' },
+      yaxis: { title: 'Number of Cycles' },
+      showlegend: true
+  };
+
+  Plotly.newPlot('stacked-bar-chart-category', traces_category, layout_stacked_bar_category);
